@@ -1,4 +1,4 @@
-package testPack;
+package com.projdh;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -22,7 +22,7 @@ public class CreateSim {
         }
         catch(FileNotFoundException e)
         {
-            System.out.println("Ошибка открытия файла many sim dv.txt");
+            System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ many sim dv.txt");
             System.exit(0);
         }
         for (int i=1; i<30000; i++){
@@ -34,6 +34,6 @@ public class CreateSim {
         }
         zzz.close();
         
-        System.out.println("Программа завершена");
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
     }
 }

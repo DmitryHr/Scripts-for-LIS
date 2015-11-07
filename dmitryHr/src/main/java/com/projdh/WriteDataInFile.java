@@ -1,4 +1,4 @@
-package testPack;
+package com.projdh;
 
  import java.io.PrintWriter;
 import java.io.FileOutputStream;
@@ -25,7 +25,7 @@ public class WriteDataInFile{
          }
          catch(FileNotFoundException e)
          {
-             System.out.println("Ошибка открытия файла my_test_file.txt");
+             System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ my_test_file.txt");
              System.exit(0);
          }
          for (int i=1; i<1000; i++){
@@ -40,6 +40,6 @@ public class WriteDataInFile{
          }
          zzz.close();
          
-         System.out.println("Программа завершена");
+         System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
      }
  }
