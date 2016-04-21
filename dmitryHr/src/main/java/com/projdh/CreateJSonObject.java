@@ -18,14 +18,13 @@ public class CreateJSonObject {
 		NameForElements nmEpq = new NameForElements();
 		
 		for (int i =1; i<nmEpq.nameForEpiquements().length; i++){
-		/*	resultJson.put("macroRegionId",new Integer(800));
+			resultJson.put("macroRegionId",new Integer(800));
 			resultJson.put("equipmentStateId",new Integer(new Random().nextInt(3)+1));
 			resultJson.put("equipmentTypeId",new Integer(1));
 			resultJson.put("standardId",new Integer(new Random().nextInt(3)+1));
 			resultJson.put("zoneId",new Integer(new Random().nextInt(3)+1));
 			resultJson.put("regionId",new Integer(new Random().nextInt(3)+1));
-			*/
-			
+						
 			resultJson.put("name",nmEpq.nameForEpiquements()[new Random().nextInt(nmEpq.nameForEpiquements().length)]);
 			String jsonText = JSONValue.toJSONString(resultJson);
 			System.out.print("curl --header \"authToken: $TOKEN\" --header \"Content-Type: application/json\" -d \'");
