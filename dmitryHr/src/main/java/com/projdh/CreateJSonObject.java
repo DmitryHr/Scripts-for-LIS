@@ -18,7 +18,7 @@ public class CreateJSonObject {
 		NameForElements nmEpq = new NameForElements();
 		
 		for (int i =1; i<nmEpq.nameForEpiquements().length; i++){
-			resultJson.put("macroRegionId",new Integer(800));
+			resultJson.put("macroRegionId",new Integer(600));
 			resultJson.put("equipmentStateId",new Integer(new Random().nextInt(3)+1));
 			resultJson.put("equipmentTypeId",new Integer(1));
 			resultJson.put("standardId",new Integer(new Random().nextInt(3)+1));
